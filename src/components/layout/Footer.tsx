@@ -44,23 +44,13 @@ export const Footer = () => {
             <h4 className="font-display font-semibold mb-4">Customer Service</h4>
             <ul className="space-y-2 text-sm opacity-80">
               <li>
-                <Link to="/shipping" className="hover:opacity-100 transition-opacity">
-                  Shipping Info
+                <Link to="/orders" className="hover:opacity-100 transition-opacity">
+                  Orders
                 </Link>
               </li>
               <li>
-                <Link to="/returns" className="hover:opacity-100 transition-opacity">
-                  Returns & Exchanges
-                </Link>
-              </li>
-              <li>
-                <Link to="/faq" className="hover:opacity-100 transition-opacity">
-                  FAQ
-                </Link>
-              </li>
-              <li>
-                <Link to="/contact" className="hover:opacity-100 transition-opacity">
-                  Contact Us
+                <Link to="/products" className="hover:opacity-100 transition-opacity">
+                  Browse Products
                 </Link>
               </li>
             </ul>
